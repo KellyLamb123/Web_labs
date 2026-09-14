@@ -191,6 +191,7 @@ input {
         max-width: 350px;
         margin: 0 auto;
         text-align: center;
+        position: static;
     }
     .cart-buttons {
         justify-content: center;
