@@ -13,7 +13,7 @@
 <body>
   
 <header class="header">
-<h1>Мой первый магазин</h1>
+<h1>Мой магазин</h1>
 </header>
 
 <main class="main">
@@ -103,6 +103,8 @@
     
   </section>
 
+  <!-- Корзина -->
+
   <aside class="cart">
 
     <h2>Корзина</h2>
@@ -122,3 +124,81 @@
   </aside>
 
 </main>
+
+<div id="modal" class="modal">
+
+  <div class="modal-content">
+
+    <button
+      
+      id="close-modal"
+      class="close-button">
+      ×
+      
+    </button>
+
+    <h2>Оформление заказа</h2>
+
+    <form id="order-form">
+      
+      <label for="name">Имя</label>
+
+      <input
+        
+        type="text"
+        id="name"
+        required
+        
+      >
+
+      <label for="surname">Фамилия</label>
+
+      <input
+          
+        type="text"
+        id="surname"
+        required
+          
+      >
+
+      <label for="address">Адрес доставки</label>
+      
+      <input
+        
+        type="text"
+        id="address"
+        required
+        
+      >
+
+      <label for="phone">Номер телефона</label>
+
+      <input
+        
+        type="tel"
+        id="phone"
+        required
+      
+      >
+
+      <button type="submit">Создать заказ</button>
+
+    </form>
+
+  </div>
+
+</div>
+  
+<footer class="footer">
+
+  <p>Магазин 2026</p>
+
+</footer>
+
+<!-- JS -->
+  
+<script src="script.js"></script>
+
+</body>
+
+</html>
