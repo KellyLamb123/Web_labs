@@ -43,9 +43,13 @@ function showCart() {
     
     cartItems.innerHTML = "<p>Корзина пуста</p>";
     totalPrice.textContent = 0;
+    checkoutButton.style.display = "none";
+    
     return;
     
   }
+
+  checkoutButton.style.display = "block";
 
   cart.forEach(function (item) {
     
