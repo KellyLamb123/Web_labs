@@ -183,7 +183,7 @@ input {
         grid-template-columns: 1fr;
     }
     .main {
-        padding-bottom: 120px;
+        padding-bottom: 2000px;
         align-items: center;
     }
     .cart {
