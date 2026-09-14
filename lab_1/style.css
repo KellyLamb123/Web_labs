@@ -184,5 +184,16 @@ input {
     }
     .main {
         padding: 0 10px;
+        align-items: center;
+    }
+    .cart {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .cart-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
