@@ -67,3 +67,46 @@ button {
 button:hover {
     background-color: #444;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main {
+        flex-direction: column;
+    }
+    .cart {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+    .main {
+        padding: 0 10px;
+    }
+}
