@@ -175,9 +175,22 @@ orderForm.addEventListener("submit",
     function (event) {
       
       event.preventDefault();
+      
+      if (cart.length === 0) {
+
+        alert("Корзина пуста!");
+
+        return;
+        
+      }
+      
       alert("Заказ создан!");
+      cart = [];
+      saveCart();
+      showCart();
       orderForm.reset();
       modal.style.display = "none";
+      
     }
 );
 showCart();
