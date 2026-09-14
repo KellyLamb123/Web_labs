@@ -179,6 +179,10 @@ input {
 
 @media (max-width: 600px) {
 
+    body {
+      background-color: red;
+    }
+
     .products {
         grid-template-columns: 1fr;
     }
@@ -187,7 +191,7 @@ input {
         align-items: center;
     }
     .cart {
-        min-height: 100vh
+        min-height: 1500px;
         width: 100%;
         max-width: 350px;
         margin: 0 auto;
